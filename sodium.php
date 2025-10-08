@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // Load key from config.ini
 $config = parse_ini_file('config/config.ini', true);
-$key = $config['encryption']['sodium_key']; // use correct key field
+$key = $config['encryption']['sodium_key'];
 
 // Generate a random nonce
 $nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);

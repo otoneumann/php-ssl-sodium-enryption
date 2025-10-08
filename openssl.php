@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $config = parse_ini_file('config/config.ini', true);
-$key = $config['encryption']['openssl_key']; // use correct key field
+$key = $config['encryption']['openssl_key'];
 
 $cipher_algo = 'AES-256-CBC';
 $initVectorLength = openssl_cipher_iv_length($cipher_algo);
