@@ -1,0 +1,47 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PhpStorm / JetBrains
+.idea/
+*.iml
+
+# Composer
+/vendor/
+
+# Symfony / Laravel / PHP frameworks
+/var/
+.env
+.env.local
+.env.*.local
+.env.test
+.env.dev
+.env.backup
+*.log
+
+# Node
+/node_modules/
+
+# Cache / temp
+/cache/
+.tmp/
+*.tmp
+*.swp
+
+# OS backups
+*.bak
+*.orig
+
+# Build outputs
+/dist/
+public/build/
+
+# Config files (optional)
+/config/
